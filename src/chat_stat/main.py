@@ -92,9 +92,3 @@ class chatstatistics:
 
         wordcloud.to_file(Path(save_dir) / 'wordcloud.png')
     print('Done!')
-
-
-sample = chatstatistics('group_data.json')
-sample.generate_word_cloud(DATA_DIR)
-
-#print(sample.generate_statistics())
